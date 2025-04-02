@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+
+@layer base {
+
+    body {
+       font-family: "Inter", sans-serif;
+    }
+
+    th {
+        @apply border bg-gray-100 py-2;
+    }
+    
+    td {
+        @apply border border-gray-400 bg-white py-2;
+    }
+    
+    button {
+        @apply px-4 py-2 bg-white shadow-md rounded font-semibold cursor-pointer;
+    }
+}
